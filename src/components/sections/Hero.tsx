@@ -7,11 +7,11 @@ import { ArrowRight, Play } from "lucide-react";
 
 export function Hero() {
   return (
-    <section className="py-28 md:py-44 overflow-hidden relative">
+    <section className="min-h-[calc(100vh-4rem)] overflow-hidden relative flex items-center">
       {/* Radial glow decoration */}
       <div className="absolute w-[600px] h-[600px] rounded-full bg-primary/8 blur-[150px] -top-48 -right-48 pointer-events-none" />
 
-      <div className="max-w-6xl mx-auto px-6">
+      <div className="max-w-6xl mx-auto px-6 w-full py-12 md:py-16">
         <div className="grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 lg:gap-8 items-center">
           {/* Left Column */}
           <motion.div
